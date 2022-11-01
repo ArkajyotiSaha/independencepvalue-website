@@ -64,7 +64,7 @@ First, we load `independencepvalue`:
 library(independencepvalue)
 ```
 
-Next, we demonstrate the use of the package on the example we considered in the [Overview](articles/Overview.html). First, we simulate the data:
+Next, we demonstrate the use of the package on the example we considered in the [Overview](Overview.html). First, we simulate the data:
 ```{r simulate_alt}
 p <- 6
 n <- 9
@@ -83,7 +83,7 @@ Next, we test the independence of group `1` with the remaining variables. First,
 ```{r classcial_alt}
 classical_p_val(S=cov(X), CP=block_diag_structure, k=1, n=n, mc_iter=1000)
 ```
-As demonstrated in the [Overview](articles/Overview.html), the classical approach fails to reject the null hypothesis and consequently does not identify the group of variables to be correlated with the remaining variables. This primarily happens as the classical inference does not account for the fact that the hypothesis was selected from the data. Our proposed selective inference approach accounts for this:
+As demonstrated in the [Overview](Overview.html), the classical approach fails to reject the null hypothesis and consequently does not identify the group of variables to be correlated with the remaining variables. This primarily happens as the classical inference does not account for the fact that the hypothesis was selected from the data. Our proposed selective inference approach accounts for this:
 ```{r selective_alt}
 selective_p_val(S=cov(X), CP=block_diag_structure, k=1, n=n, c=0.5, d0=5, mc_iter=1000)
 ```
