@@ -1,0 +1,41 @@
+Package: independencepvalue
+Title: Testing independence between groups of Gaussian variables
+Version: 0.0.2
+Authors@R: c(
+    person("Arkajyoti", "Saha", , "arkajyotisaha93@gmail.com", role = c("aut", "cre")),
+    person("Daniela", "Witten", , "dwitten@u.washington.edu", role = "aut"),
+    person("Jacob", "Bien", , "jbien@usc.edu", role = "aut")
+  )
+Description: Discovers block diagonal structure from a given covariance
+    matrix through thresholding correlations and then tests whether a
+    block is independent from the remaining variables in a fashion that
+    accounts for the selection of the blocks.  A function for testing in
+    the classical setting where these groups are predetermined is also
+    implemented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    amen,
+    collapse,
+    data.table,
+    future.apply,
+    geometry,
+    graphics,
+    grDevices,
+    igraph,
+    rcdd,
+    SimplicialCubature,
+    stats,
+    volesti
+Suggests: 
+    knitr,
+    MASS,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/ArkajyotiSaha/independencepvalue-project/tree/main/independencepvalue
+LitrVersionUsed: 0.5.0
+LitrId: efd5a151fc82f7f567f06c650c3703aa

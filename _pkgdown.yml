@@ -1,0 +1,11 @@
+url: ~
+template:
+  bootstrap: 5
+  bootswatch: cosmo
+
+repo:
+  url:
+    home: https://github.com/ArkajyotiSaha/independencepvalue-project/tree/main/independencepvalue/
+    source: https://github.com/ArkajyotiSaha/independencepvalue-project/tree/main/independencepvalue/
+    issue: https://github.com/ArkajyotiSaha/independencepvalue-project/issues/
+    user: https://github.com/

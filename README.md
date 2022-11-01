@@ -1,3 +1,39 @@
-# independencepvalue-website
 
-Hosts the website for R package [independencepvalue](https://github.com/ArkajyotiSaha/independencepvalue-project). 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# `independencepvalue`
+
+## What does `independencepvalue` do?
+
+`independencepvalue` is an `R` package that tests the independence
+between two groups of Gaussian variables, where the groups were obtained
+by thresholding the correlation matrix. For a brief overview explaining
+why `independencepvalue` is needed and how it works, see
+[here](Overview.Rmd). For the full explanation, you can read our paper
+[Inferring independent sets of Gaussian variables after thresholding
+correlations](XXXX.arxiv.org).
+
+## How do I get `independencepvalue`?
+
+To install `independencepvalue`, run the following:
+
+``` r
+remotes::install_github("ArkajyotiSaha/independencepvalue-project",
+                        subdir = "independencepvalue")
+```
+
+(And if necessary, first install the `remotes` package by using
+`install.packages("remotes")`.)
+
+## How do I use `independencepvalue`?
+
+To get started with `independencepvalue`, we recommend trying [this
+tutorial](Tutorial.Rmd).
+
+## Other information
+
+This R package is created using literate programming with the
+[litr](https://github.com/jacobbien/litr-project/tree/main/litr) R
+package. To know more about `independencepvalue` generation, please
+visit the [package
+repository](https://github.com/ArkajyotiSaha/independencepvalue-project).
