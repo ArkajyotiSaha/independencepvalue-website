@@ -9,9 +9,9 @@
 between two groups of Gaussian variables, where the groups were obtained
 by thresholding the correlation matrix. For a brief overview explaining
 why `independencepvalue` is needed and how it works, see
-[here](Overview.Rmd). For the full explanation, you can read our paper
-[Inferring independent sets of Gaussian variables after thresholding
-correlations](XXXX.arxiv.org).
+[here](articles/Overview.html). For the full explanation, you can read
+our paper [Inferring independent sets of Gaussian variables after
+thresholding correlations](XXXX.arxiv.org).
 
 ## How do I get `independencepvalue`?
 
@@ -28,7 +28,7 @@ remotes::install_github("ArkajyotiSaha/independencepvalue-project",
 ## How do I use `independencepvalue`?
 
 To get started with `independencepvalue`, we recommend trying [this
-tutorial](Tutorial.Rmd).
+tutorial](articles/Tutorial.html).
 
 ## Other information
 
